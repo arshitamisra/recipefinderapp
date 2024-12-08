@@ -1,0 +1,101 @@
+/* Favorites title */
+.favorites-title {
+text-align: center;
+font-size: 2rem;
+margin: 1.5rem 0;
+color: #d81b60;
+}
+  .favorites {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .favorites h1 {
+    text-align: center;
+    color: #d81b60;
+    margin-bottom: 2rem;
+  }
+  
+  .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  
+  /* Favorite card */
+  .favorite-card {
+    background: white;
+    border: 1px solid #f8d7e2; /* Light pink border */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 320px;
+    height: 280px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .favorite-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Recipe image */
+  .favorite-card img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: 150px; /* Constrain image height */
+    object-fit: cover; /* Crop to fit the box */
+    margin-bottom: 1rem;
+  }
+  
+  /* Recipe title */
+  .favorite-card h3 {
+    margin: 0.5rem 0;
+    color: #d81b60;
+    text-align: center;
+  }
+  
+  /* Card actions */
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  /* View Details button */
+  .details-link {
+    background-color: #f48fb1; /* Soft pink */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  .details-link:hover {
+    background-color: #ec407a;
+  }
+  
+  /* Remove from Favorites button */
+  .remove-btn {
+    background-color: #4a90e2; /* Blue button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #357abd;
+  }
+  

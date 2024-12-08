@@ -1,0 +1,61 @@
+.recipe-details {
+    max-width: 100%; /* Use the full width */
+    margin: 0; /* Remove any centering margin */
+    padding: 2rem; /* Add padding for spacing */
+  }
+  
+  .recipe-details img {
+    max-width: 100%; /* Ensure the image spans the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details h1 {
+    color: #d81b60;
+    margin-bottom: 1rem;
+    font-size: 2rem; /* Adjust heading size */
+    text-align: left; /* Align to the left */
+  }
+  
+  .recipe-details h2 {
+    color: #333;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: left; /* Align to the left */
+  }
+  
+  .recipe-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-details li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem; /* Adjust font size */
+    color: #555;
+  }
+  
+  .recipe-details p {
+    margin-top: 1rem;
+    text-align: left; /* Align instructions to the left */
+    line-height: 1.5; /* Increase readability */
+  }
+
+  .back-button {
+    background-color: #d81b60;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #b81755; /* Darker pink for hover effect */
+  }
+  
+  

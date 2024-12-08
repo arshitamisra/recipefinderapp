@@ -1,0 +1,80 @@
+/* Card container */
+.recipe-card {
+    background: white;
+    border: 1px solid #f8d7e2; /* Light pink border */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Recipe image */
+  .recipe-card img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  /* Recipe title */
+  .recipe-card h3 {
+    margin: 0.5rem 0;
+    color: #d81b60; /* Pink theme */
+    text-align: center;
+  }
+  
+  /* Action buttons container */
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  /* View Details button */
+  .details-link {
+    background-color: #f48fb1; /* Soft pink */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .details-link:hover {
+    background-color: #ec407a;
+  }
+  
+/* Add/Remove Favorites button */
+.favorites-btn {
+    background-color: #4a90e2; /* Soft blue */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px; /* Rounded for a "prettier" look */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .favorites-btn:hover {
+    background-color: #357abd; /* Slightly darker blue on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhance the shadow on hover */
+  }
+  
+  .favorites-btn:active {
+    transform: scale(0.97); /* Slight shrink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  }
+  

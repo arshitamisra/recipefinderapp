@@ -1,0 +1,71 @@
+/* Center the title */
+.home-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: #333;
+  }
+  
+  /* Ingredient search bar styling */
+  .ingredient-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 600px;
+    gap: 1rem;
+  }
+  
+  .ingredient-search input {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .ingredient-search button {
+    padding: 0.8rem 1rem;
+    background: #667eea;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ingredient-search button:hover {
+    background: #5564d8;
+  }
+/* Grid layout for cards */
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjust card width */
+    row-gap: 4rem; /* Space between rows */
+    column-gap: 2rem; /* Space between columns */
+    padding: 3rem 2rem; /* Padding around the grid itself */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid on the page */
+  }
+  
+  
+  .recipe-card {
+    background: white;
+    border: 1px solid #f8d7e2; /* Light pink border */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
